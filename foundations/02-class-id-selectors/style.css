@@ -1,0 +1,18 @@
+.num{
+    background-color: rgb(223, 130, 145);
+    font-family: Verdana, "DejaVu sans", sans-serif;
+
+}
+#one{
+    color: rgb(113, 113, 204);
+    font-size: 36px;
+}
+
+.num .ber{
+    font-size: 24px;
+}
+#two{
+    background-color: rgb(39, 216, 39);
+    font-size: 24px;
+    font-weight: bold;
+}
