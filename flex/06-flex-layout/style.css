@@ -2,20 +2,38 @@
 
 body {
   height: 100vh;
-  margin: 0;
+  margin-right: 10px ;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  
 }
-
+.content{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  
+}
 img {
   width: 600px;
 }
+.buttons{
+  justify-content: center;
+}
+
 
 button {
+
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
+  
 }
 
 input {
@@ -23,5 +41,34 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 16px;
+  margin-bottom: 16px; 
+ 
+}
+li{
+  list-style: none;
+}
+
+a{
+  color: #666;
+  text-decoration:none;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.footer{
+  display: flex;
+  background-color:#eeeeee;
+  margin-top: auto;
+
+}
+.left-links{
+  display: flex;
+  gap: 10px;
+}
+.right-links{
+  display: flex;
+  margin-left: auto;
+  gap: 10px;
 }
